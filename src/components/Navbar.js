@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../App.css';
+import {HashRouter as Router} from 'react-router-dom';
 import {
     BrowserRouter as Router,
     Switch,
@@ -55,7 +56,7 @@ export default function Navbar() {
     }
     return (
         <div>
-            <Router>
+            <Router basename={process.env.PUBLIC_URL}>
       <div>
         <nav>
           <ul style={{"list-style-type": "none","margin": 0,"padding": 0}} className="ul">
