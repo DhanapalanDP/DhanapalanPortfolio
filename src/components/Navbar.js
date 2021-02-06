@@ -61,7 +61,7 @@ export default function Navbar() {
         <nav>
           <ul style={{"list-style-type": "none","margin": 0,"padding": 0}} className="ul">
             <li style={{ "display": "inline"}} className="homeNav li">
-              <Link style={colornew?{"textDecoration": "none","color":"#fff","transition":"3s", 'fontWeight': "bold"}:{"textDecoration": "none","color":"black",'fontWeight': "bold", "transition":"2s", "cursor":"default"}} to="/"><button  onClick={changeColor} className="dpbutton">DP</button></Link>
+              <Link style={colornew?{"textDecoration": "none","color":"#fff","transition":"3s", 'fontWeight': "bold"}:{"textDecoration": "none","color":"black",'fontWeight': "bold", "transition":"2s", "cursor":"default"}} to="/portfolio"><button  onClick={changeColor} className="dpbutton">DP</button></Link>
             </li>
             <div className="right">
             <li style={{ "display": "inline"}}  >
@@ -96,7 +96,7 @@ export default function Navbar() {
           <Route path="/users">
             <Users />
           </Route>
-          <Route path="/">
+          <Route path="/portfolio">
             <Home />
           </Route>
         </Switch>
