@@ -55,12 +55,12 @@ export default function Navbar() {
     }
     return (
         <div>
-            <Router basename="/portfolio"}>
+            <Router>
       <div>
         <nav>
           <ul style={{"list-style-type": "none","margin": 0,"padding": 0}} className="ul">
             <li style={{ "display": "inline"}} className="homeNav li">
-              <Link style={colornew?{"textDecoration": "none","color":"#fff","transition":"3s", 'fontWeight': "bold"}:{"textDecoration": "none","color":"black",'fontWeight': "bold", "transition":"2s", "cursor":"default"}} to="/portfolio"><button  onClick={changeColor} className="dpbutton">DP</button></Link>
+              <Link style={colornew?{"textDecoration": "none","color":"#fff","transition":"3s", 'fontWeight': "bold"}:{"textDecoration": "none","color":"black",'fontWeight': "bold", "transition":"2s", "cursor":"default"}} to="/home"><button  onClick={changeColor} className="dpbutton">DP</button></Link>
             </li>
             <div className="right">
             <li style={{ "display": "inline"}}  >
@@ -70,7 +70,7 @@ export default function Navbar() {
               <Link style={colornew2?{"textDecoration": "none","color":"#fff", 'fontWeight': "bold","transition":"3s" }:{"textDecoration": "none","color":"black",'fontWeight': "bold","transition":"2s", "cursor":"default"}} className="about" to="/skills"><button  onClick={changeColor2} className="ABbutton">Skills</button></Link>
             </li>
             <li style={{ "display": "inline"}} >
-              <Link style={colornew3?{"textDecoration": "none","color":"#fff", 'fontWeight': "bold","transition":"3s" }:{"textDecoration": "none","color":"black", 'fontWeight': "bold","transition":"2s", "cursor":"default"}} className="about" to="/Projects"><button onClick={changeColor3} className="ABbutton">Projects</button></Link>
+              <Link style={colornew3?{"textDecoration": "none","color":"#fff", 'fontWeight': "bold","transition":"3s" }:{"textDecoration": "none","color":"black", 'fontWeight': "bold","transition":"2s", "cursor":"default"}} className="about" to="/projects"><button onClick={changeColor3} className="ABbutton">Projects</button></Link>
             </li>
             <li style={{ "display": "inline"}}  className="users">
               <Link  style={colornew4?{"textDecoration": "none","color":"#fff", 'fontWeight': "bold","transition":"3s" }:{"textDecoration": "none","color":"black", 'fontWeight': "bold","transition":"2s", "cursor":"default"}} to="/users"><button onClick={changeColor4} className="USbutton">Contact me</button></Link>
@@ -88,14 +88,14 @@ export default function Navbar() {
           <Route path="/skills">
             <Skills/>
           </Route>
-          <Route path="/Projects">
+          <Route path="/projects">
             <Projects/>
           </Route>
 
-          <Route path="/users">
+          <Route path="/contactme">
             <Users />
           </Route>
-          <Route path="/portfolio">
+          <Route path="/home">
             <Home />
           </Route>
         </Switch>
