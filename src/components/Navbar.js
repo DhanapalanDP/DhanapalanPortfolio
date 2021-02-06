@@ -56,7 +56,7 @@ export default function Navbar() {
     }
     return (
         <div>
-            <Router basename={process.env.PUBLIC_URL}>
+            <Router basename="/portfolio"}>
       <div>
         <nav>
           <ul style={{"list-style-type": "none","margin": 0,"padding": 0}} className="ul">
