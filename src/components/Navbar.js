@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import '../App.css';
-import {HashRouter as Router} from 'react-router-dom';
 import {
     BrowserRouter as Router,
     Switch,
