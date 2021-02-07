@@ -1,15 +1,15 @@
 {
   "main.css": "/portfolio/static/css/main.07b5a83b.chunk.css",
-  "main.js": "/portfolio/static/js/main.0d35003f.chunk.js",
-  "main.js.map": "/portfolio/static/js/main.0d35003f.chunk.js.map",
-  "runtime~main.js": "/portfolio/static/js/runtime~main.a8680cbb.js",
-  "runtime~main.js.map": "/portfolio/static/js/runtime~main.a8680cbb.js.map",
-  "static/js/2.47436e80.chunk.js": "/portfolio/static/js/2.47436e80.chunk.js",
-  "static/js/2.47436e80.chunk.js.map": "/portfolio/static/js/2.47436e80.chunk.js.map",
-  "static/js/3.c52688c2.chunk.js": "/portfolio/static/js/3.c52688c2.chunk.js",
-  "static/js/3.c52688c2.chunk.js.map": "/portfolio/static/js/3.c52688c2.chunk.js.map",
+  "main.js": "/portfolio/static/js/main.0108df99.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.0108df99.chunk.js.map",
+  "runtime~main.js": "/portfolio/static/js/runtime~main.fe4c37a5.js",
+  "runtime~main.js.map": "/portfolio/static/js/runtime~main.fe4c37a5.js.map",
+  "static/js/2.5a104917.chunk.js": "/portfolio/static/js/2.5a104917.chunk.js",
+  "static/js/2.5a104917.chunk.js.map": "/portfolio/static/js/2.5a104917.chunk.js.map",
+  "static/js/3.84959273.chunk.js": "/portfolio/static/js/3.84959273.chunk.js",
+  "static/js/3.84959273.chunk.js.map": "/portfolio/static/js/3.84959273.chunk.js.map",
   "index.html": "/portfolio/index.html",
-  "precache-manifest.63d1aebb455de50d5f99d66f04596101.js": "/portfolio/precache-manifest.63d1aebb455de50d5f99d66f04596101.js",
+  "precache-manifest.d49f4c178135ec52e6be60ff2ab6337e.js": "/portfolio/precache-manifest.d49f4c178135ec52e6be60ff2ab6337e.js",
   "service-worker.js": "/portfolio/service-worker.js",
   "static/css/main.07b5a83b.chunk.css.map": "/portfolio/static/css/main.07b5a83b.chunk.css.map",
   "static/media/Calculator.png": "/portfolio/static/media/Calculator.aa2db292.png",
@@ -19,5 +19,6 @@
   "static/media/clock.png": "/portfolio/static/media/clock.bca9c7b6.png",
   "static/media/expense.png": "/portfolio/static/media/expense.2892eb5f.png",
   "static/media/game.png": "/portfolio/static/media/game.c8f139a6.png",
-  "static/media/todo.png": "/portfolio/static/media/todo.53a322d7.png"
+  "static/media/todo.png": "/portfolio/static/media/todo.53a322d7.png",
+  "static/media/vowel.png": "/portfolio/static/media/vowel.d4fc4a04.png"
 }

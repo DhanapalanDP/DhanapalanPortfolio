@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "717764c4f7e767403e5c",
+    "revision": "a18cd46e47462be3d1e9",
     "url": "/portfolio/static/css/main.07b5a83b.chunk.css"
   },
   {
-    "revision": "717764c4f7e767403e5c",
-    "url": "/portfolio/static/js/main.0d35003f.chunk.js"
+    "revision": "a18cd46e47462be3d1e9",
+    "url": "/portfolio/static/js/main.0108df99.chunk.js"
   },
   {
-    "revision": "6275466dd3589c3cc1e1",
-    "url": "/portfolio/static/js/runtime~main.a8680cbb.js"
+    "revision": "f1a96294a8128f2ade6f",
+    "url": "/portfolio/static/js/runtime~main.fe4c37a5.js"
   },
   {
-    "revision": "547040587e1b7e3835ca",
-    "url": "/portfolio/static/js/2.47436e80.chunk.js"
+    "revision": "ab1f5ed0a4ec5396bd9d",
+    "url": "/portfolio/static/js/2.5a104917.chunk.js"
   },
   {
-    "revision": "022a43925442dbea6e70",
-    "url": "/portfolio/static/js/3.c52688c2.chunk.js"
+    "revision": "49efc5e043f85d454963",
+    "url": "/portfolio/static/js/3.84959273.chunk.js"
   },
   {
     "revision": "aeedd51d9dba9338b5de806dd8fcde7e",
@@ -26,10 +26,6 @@ self.__precacheManifest = [
   {
     "revision": "006fb6bd94e71f42ee004817baca0cdf",
     "url": "/portfolio/static/media/background.006fb6bd.png"
-  },
-  {
-    "revision": "2f93df00b061c7af6d88f0c997462c03",
-    "url": "/portfolio/static/media/Tik.2f93df00.PNG"
   },
   {
     "revision": "bca9c7b678b009bf4d9dcd3fe61364e2",
@@ -48,11 +44,19 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/Calculator.aa2db292.png"
   },
   {
+    "revision": "d4fc4a04c3e7cd390a0ab32b8d269417",
+    "url": "/portfolio/static/media/vowel.d4fc4a04.png"
+  },
+  {
     "revision": "53a322d78126324f0df2b63098f06433",
     "url": "/portfolio/static/media/todo.53a322d7.png"
   },
   {
-    "revision": "74543259da8ccdbd58cdb8636a30371a",
+    "revision": "2f93df00b061c7af6d88f0c997462c03",
+    "url": "/portfolio/static/media/Tik.2f93df00.PNG"
+  },
+  {
+    "revision": "c87311cae3baf79bcc5df16a63b97220",
     "url": "/portfolio/index.html"
   }
 ];
